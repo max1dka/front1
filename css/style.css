@@ -14,6 +14,7 @@
 .container {
     width: 1140px;
     margin: 0 auto;
+    position: relative;
 
 }
 
@@ -142,6 +143,7 @@ h2.title{
      height: 7px;
      width: 220px;
      margin-top: 18px;
+     color: #F9BF3B;
  }
 
  .aboutvebinar{
@@ -157,12 +159,11 @@ h2.title{
 
 .section2blocks{
      margin-top: 45px;
-
+    display: flex;
+    justify-content: space-between;
  }
 
 .block2 .section2blocks .everblock{
-    display: inline-block;
-    vertical-align: top;
     width: 369px;
     font-family: 'Roboto';
     font-style: normal;
@@ -170,10 +171,226 @@ h2.title{
     font-size: 15px;
     line-height: 21px;
     text-align: center;
-    margin: 0 4px;
+
 
 }
 
 .block2 .section2blocks .everblock div {
     margin-top: 25px;
+}
+
+.optimization{
+    height: 550px;
+    padding-top: 108px;
+    padding-bottom: 74px;
+}
+
+.optimization .opth1{
+    color: #299CBD;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-left: 391px;
+
+}
+
+.optimization .opttext{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    color: #4A4A4A;
+    margin-left: 391px;
+    margin-top: 25px;
+}
+
+.boldfooter{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 27px;
+    color: #4A4A4A;
+}
+
+.womanimg {
+    position: absolute;
+    top: -47px;
+    left: -240px;
+    z-index: -1;
+}
+
+.finish{
+    min-height: 450px;
+    background: url("../img/finishbg.png") center center/cover no-repeat;
+    padding-top: 86px;
+    padding-bottom: 68px ;
+}
+.finish .finish_h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #EFEFEF;
+}
+.finish .finish_flex {
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.finish .finish_flex .ff_block {
+    width: 204px;
+}
+
+.finish .finish_flex .ff_block .finish_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    height: 115px;
+    background: #B4E2FF;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+.finish .container .ff_block .ff_block_text{
+    margin-top: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #EFEFEF;
+
+}
+
+.prize{
+    height: 630px;
+    background: #EFEFEF;
+    padding-top: 88px;
+    padding-bottom: 88px;
+}
+
+.prizeimg {
+    display: flex;
+    justify-content: center;
+}
+
+.prizeinfo{
+    margin-top: 45px;
+    width: 1161px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+
+    color: #252525;
+}
+
+.blue_button1{
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    height: 72px;
+    text-align: center;
+    width: 313px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24px;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+    cursor: pointer;
+    outline: none;
+}
+.firstdate{
+    height: 514px;
+    padding-top: 88px;
+    padding-bottom: 53px;
+}
+
+.dateimg{
+    display: flex;
+    justify-content: center;
+}
+
+.dateinfo1{
+    margin-top: 36px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #252525;
+}
+
+.dateinfo2{
+    margin-top: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #299CBD;
+
+}
+
+.dateinfo3{
+    margin-top: 25px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #4A4A4A;
+}
+
+.footerblock{
+    display: flex;
+    align-items: center;
+    background: black;
+    height: 169px;
+}
+
+.navfooter{
+    margin-top: 55px;
+    margin-bottom: 69px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #888888;
+}
+
+.footerblock a{
+    color: #888888;
 }
